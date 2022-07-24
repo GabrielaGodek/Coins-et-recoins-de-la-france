@@ -1,7 +1,7 @@
 # Coins et recoins de la France
 *Nooks &amp; crannies of France - sample landing page with picture from France*
 
-Live view: 
+Live view: https://gabrielagodek.github.io/Coins-et-recoins-de-la-france/
 
 ## Introduction
 `Partez en voyage à travers la France! - Go on a journey through France!
