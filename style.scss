@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#france_id > .cls_box {
+    position: relative;
+    object-fit: cover;
+}
+#france_id > .cls_box > .cls_content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+img {
+    width: 100%;
+}
+.hide-on-desktop {
+    display: none;
+}
+.hide-on-mobile {
+    display: block;
+}
+
+#france_id > div:nth-of-type(1) {
+    padding-bottom: 40.71875%;
+    source {
+        width: 100%;
+        height: 100%;
+    }
+}
+#france_id > div:nth-of-type(2) {
+    padding-bottom: 45.364583333333336%;
+    .section-two {
+        display: flex;
+        justify-content: space-between;
+        width: 65.83333333333334%;
+        // height: 122.96774193548387%;
+        margin: 0 auto;
+        .firstColumn {
+            width: 50%;
+            .alexander-III-bridge {
+                width: 34.427083333333336%;
+                img {
+                    width: 100%;
+                }
+            }
+            .text {
+                font-size: 1.5em;
+                font-family: "Montserrat";
+                padding-bottom: 15.082956259426847%;
+            }
+        }
+        .secondColumn {
+            text-align: right;
+            width: 50%;
+            .nooks-crannies {
+                width: 78.41269841269841%;
+                img {
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .flex {
+        display: flex;
+        flex-direction: row;
+    }
+}
+#france_id > div:nth-of-type(3),
+#france_id > div:nth-of-type(5) {
+    padding-bottom: 48.166666666666668%;
+    .title {
+        padding: 2%;
+        width: 80%;
+        color: #6c7d43;
+        font-family: "Montserrat";
+        padding-left: 16.927083333333336%;
+        font-size: 2vw;
+        filter: contrast(1.75);
+        // -webkit-text-stroke: 1px #6c7d43;
+    }
+    .first-product-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        .product {
+            width: 21.979166666666667%;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            gap: 15%;
+            text-align: center;
+            text-decoration: none;
+            color: #6c7d43;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            -webkit-text-stroke: 1px #6c7d43;
+
+            .btn-see-more {
+                width: 80%;
+                padding: 20px;
+                margin: 0 auto;
+                border: none;
+                font-size: 1vw;
+            }
+            .btn-see-more:hover {
+                background-color: #6c7d43;
+                color: #fff;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+#france_id > div:nth-of-type(3){
+    padding-bottom: 62.166666666666668%;
+}
+#france_id > div:nth-of-type(4) {
+    padding-bottom: 90.66666666666667%;
+    .relative-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .section-arc {
+            margin: 0 auto;
+            justify-self: center;
+            width: 49.63541666666667%;
+        }
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .title-france {
+                color: #fff;
+                font-size: 33px;
+                font-family: "Montserrat", sans-serif;
+                text-align: center;
+                padding: 5% 0 5% 5%;
+                filter: contrast(1.75);
+                -webkit-text-stroke: 1px black;
+            }
+            .second-text {
+                align-self: flex-end;
+                text-align: justify;
+                font-family: "Montserrat", sans-serif;
+                font-size: 1.4vw;
+                width: 57.96875%;
+                background-color: #fff;
+                padding: 2% 1%;
+                filter: contrast(1.75);
+            }
+        }
+        .background-color {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 63.735177865612656%;
+            z-index: -1;
+            background-color: #6c7d43;
+            opacity: 0.8;
+        }
+    }
+}
+#france_id > div:nth-of-type(6) {
+    padding-bottom: 85.78125%;
+
+    .title {
+        font-family: "Montserrat";
+        color: #6c7d43;
+        width: 70%;
+        padding: 0 0 2% 20%;
+        font-size: 2vw;
+        text-align: right;
+        -webkit-text-stroke: 1px #6c7d43;
+    }
+    .chess-board {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5px;
+        .section-column {
+            display: flex;
+            flex-direction: column;
+            width: 36.145833333333336%;
+        }
+        // .reverse{
+        //     flex-direction: column-reverse;
+        // }
+    }
+    .header {
+        position: absolute;
+        font-family: "Montserrat";
+        font-size: 7em;
+        // font-size: calc(4em+(14em - 7em)*((100vw - 320px)/(1920px - 320px)));
+        color: rgba(34, 33, 33, .62);
+        text-align: center;
+        width: 100%;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 1175px) {
+
+    #france_id > div:nth-of-type(1) {
+        padding-bottom: 42%;
+    }
+    #france_id > div:nth-of-type(2) {
+        padding-bottom: 189.375%;
+        .section-two {
+            width: 100%;
+        }
+        .flex {
+            display: flex;
+            flex-direction: column;
+
+            .firstColumn {
+                width: 100%;
+                .text {
+                    margin: 0 auto;
+                    text-align: justify;
+                    width: 81.375%;
+                    font-size: 33px;
+                    padding-bottom: 70px;
+                }
+            }
+            .secondColumn {
+                width: 100%;
+                padding-top: 70px;
+                .madrid-big {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .nooks-crannies {
+                    width: 59.875%;
+                }
+            }
+        }
+    }
+    #france_id > div:nth-of-type(3),
+    #france_id > div:nth-of-type(5) {
+        padding-bottom: 420%;
+        .title {
+            text-align: center;
+            padding: 0 7% 4%;
+            font-size: 5vw;
+            width: 100%;
+        }
+        .title-justify {
+            text-align: justify;
+        }
+        .first-product-list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .product {
+                width: 57.5%;
+                height: 1300px;
+                gap: 5%;
+                .btn-see-more {
+                    font-size: 3vw;
+                    width: 100%;
+                }
+            }
+        }
+    }
+  
+    #france_id > div:nth-of-type(5) {
+        padding-bottom: 240%;
+        .first-product-list .product {
+            width: 57.5%;
+            height: 800px;
+            gap: 5%;
+            .btn-see-more {
+                font-size: 3vw;
+                width: 100%;
+            }
+        }
+    }
+    #france_id > div:nth-of-type(4) {
+        padding-bottom: 168.5%;
+        .relative-container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .section-woman-with-book {
+                margin: 0 auto;
+                justify-self: center;
+                width: 71.875%;
+            }
+            .row {
+                flex-direction: column;
+                .title-france {
+                    color: #fff;
+                    font-size: 33px;
+                    font-family: "Montserrat", sans-serif;
+                    text-align: center;
+                    padding: 5% 0;
+                }
+                .second-text {
+                    align-self: flex-end;
+                    text-align: justify;
+                    font-family: "Montserrat", sans-serif;
+                    width: 89.5%;
+                    background-color: #fff;
+                    padding: 10% 5%;
+                    font-size: 3vw;
+                }
+            }
+            .background-color {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 63.735177865612656%;
+                z-index: -1;
+                background-color: #6c7d43;
+                opacity: 0.8;
+            }
+        }
+    }
+    #france_id > div:nth-of-type(6) {
+        padding-bottom: 304.25%;
+
+        .title {
+            font-family: "Montserrat";
+            color: #6c7d43;
+            width: 100%;
+            text-align: center;
+            font-size: 3vw;
+            padding: 4%;
+        }
+        .title-justify {
+            text-align: justify;
+        }
+        .chess-board {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .section-column {
+                display: flex;
+                flex-direction: column;
+                width: 90%;
+                margin: 0 auto;
+            }
+            .reverse {
+                flex-direction: column-reverse;
+            }
+        }
+        .header {
+            // font-family: "Montserrat";
+            font-size: 3.5em;
+
+            // text-align: center;
+        }
+    }
+}
+@media screen and (max-width: 800px) {
+    #france_id > div:nth-of-type(1) {
+        padding-bottom: 157%;
+    }
+    #france_id > div:nth-of-type(2) {
+        padding-bottom: 364.375%;
+        .section-two {
+            width: 100%;
+        }
+        .flex {
+            display: flex;
+            flex-direction: column;
+
+            .firstColumn {
+                width: 100%;
+                .text {
+                    margin: 0 auto;
+                    text-align: justify;
+                    width: 81.375%;
+                    font-size: 33px;
+                    padding-bottom: 70px;
+                }
+            }
+            .secondColumn {
+                width: 100%;
+                padding-top: 70px;
+                .madrid-big {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .nooks-crannies {
+                    width: 59.875%;
+                }
+            }
+        }
+    }
+    #france_id > div:nth-of-type(3),
+    #france_id > div:nth-of-type(5) {
+        padding-bottom: 430%;
+        .title {
+            text-align: center;
+            padding: 0 7% 4%;
+            font-size: 7vw;
+            width: 100%;
+        }
+        .title-justify {
+            text-align: justify;
+        }
+        .first-product-list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .product {
+                width: 57.5%;
+                height: 400px;
+                gap: 5%;
+                .btn-see-more {
+                    font-size: 5vw;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    #france_id > div:nth-of-type(4) {
+        padding-bottom: 190.5%;
+        .relative-container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .section-woman-with-book {
+                margin: 0 auto;
+                justify-self: center;
+                width: 71.875%;
+            }
+            .row {
+                flex-direction: column;
+                .title-france {
+                    color: #fff;
+                    font-size: 33px;
+                    font-family: "Montserrat", sans-serif;
+                    text-align: center;
+                    padding: 5% 0;
+                }
+                .second-text {
+                    align-self: flex-end;
+                    text-align: justify;
+                    font-family: "Montserrat", sans-serif;
+                    width: 89.5%;
+                    background-color: #fff;
+                    padding: 10% 5%;
+                    font-size: 5vw;
+                }
+            }
+            .background-color {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 63.735177865612656%;
+                z-index: -1;
+                background-color: #6c7d43;
+                opacity: 0.8;
+            }
+        }
+    }
+    #france_id > div:nth-of-type(6) {
+        padding-bottom: 420.25%;
+
+        .title {
+            font-family: "Montserrat";
+            color: #6c7d43;
+            width: 100%;
+            text-align: center;
+            padding: 4%;
+        }
+        .title-justify {
+            text-align: justify;
+            font-size: 6vw;
+        }
+        .chess-board {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .section-column {
+                display: flex;
+                flex-direction: column;
+                width: 90%;
+                margin: 0 auto;
+            }
+            .reverse {
+                flex-direction: column-reverse;
+            }
+            .buckle {
+                // width: 59.875%;
+                margin: 0 auto;
+            }
+            .product {
+                // width: 50%;
+                margin: 0 auto;
+            }
+        }
+        .header {
+            // font-family: "Montserrat";
+            font-size: 3.5em;
+            // color: #6c7d43;
+            // opacity: 0.2;
+            // text-align: center;
+        }
+    }
+}
